@@ -15,5 +15,10 @@ nav a:hover {background-color:green;}
 <a href="/">Home</a> |
 <a href="/people.php">People</a> |
 <a href="/products.php">Products</a> |
-<a href="/phpliteadmin.php" target="_blank">Admin in new tab</a>
+<a href="/phpinfo.php">PHPInfo</a> |
+<a href="/phpliteadmin.php" target="_blank">Admin</a>
 </nav>
+<?php // enable error reporting
+ini_set('display_errors',1);
+ini_set('display_startup_errors',1);
+error_reporting(E_ALL & ~E_NOTICE);

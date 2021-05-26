@@ -1,9 +1,6 @@
 <?php require_once("header.php"); ?>
 <h1>People in Test1</h1>
 <?php
-ini_set('display_errors',1);
-ini_set('display_startup_errors',1);
-error_reporting(E_ALL & ~E_NOTICE);
 $db=new PDO("sqlite:test1.db");
 if(!$db) Die("Failed to connect");
 $stmt=$db->query("select first_name,last_name from customers order by 2");
