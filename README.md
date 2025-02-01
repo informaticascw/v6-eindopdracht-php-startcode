@@ -19,6 +19,12 @@ A new browser tab automatically pops up. If it doesn't, click on ports, click th
 - click on the Admin link
 - log in with password 'admin'
 
+Due to a bug in the configuraton, you must do additional steps
+- an error that the page cannot be loaded is shown
+- go back to the home page
+- click on the Admin link again
+- the admin page opens
+
 # Changelog
 ## 2025/01/31 database admin page 
 fix "admin" page for database management doesn't load due to "MicroTimer" error<br>
